@@ -1,0 +1,17 @@
+.banner-style{
+    background-color: #ECF0F3;
+   /*  height: 100vh; */
+}
+
+.banner-heder{
+    display: flex;
+}
+
+.header{
+    margin-top: 200px;
+}
+
+.resume-link{
+    color: white;
+    text-decoration: none;
+}
