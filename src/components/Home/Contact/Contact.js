@@ -22,7 +22,7 @@ const Contact = () => {
                 <h2>Contact With Me</h2>
             </div>
             <div className="row">
-                <div className="col-md-4 border m-2">
+                <div className="col-md-6 border ">
                     <div>
                         <img className="img-fluid" src="https://rainbowit.net/html/inbio/assets/images/contact/contact1.png" alt="" />
                     </div>
@@ -36,12 +36,12 @@ const Contact = () => {
                 </div>
                 <div className="col-md-6">
                     <form onSubmit={sendEmail}>
-                        <label>Name</label>
-                        <input type="text" name="name" /> <br /> <br />
-                        <label>Email</label>
-                        <input type="email" name="user_email" /> <br /> <br />
-                        <label>Message</label>
-                        <textarea name="message" /> <br /> <br />
+                        <label>Name</label> <br />
+                        <input type="text" name="name" /> <br />
+                        <label>Email</label> <br />
+                        <input type="email" name="user_email" /> <br />
+                        <h4>message</h4>
+                        <textarea name="message" /> <br />
                         <input type="submit" value="Send" />
                     </form>
                 </div>

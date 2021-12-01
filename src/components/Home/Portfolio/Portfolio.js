@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Portfolio.css'
 import { Button, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
-    const portfolio = [
+    /* const portfolio = [
         {
             id: 1,
             img: 'https://i.ibb.co/K54NcnR/Screenshot-89.png',
@@ -40,23 +41,33 @@ const Portfolio = () => {
             sector: 'WEB DESIGN',
             title: 'ONLINE SHOPPING'
         },
-    ]
+    ] */
+
+    const [portfolio, setPortfolio] = useState([])
+    useEffect(() => {
+        fetch('/portfolio.json')
+            .then(res => res.json())
+            .then(data => setPortfolio(data))
+    }, [])
     return (
         <div className="container my-5">
             <span>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</span>
             <h2>My Projects</h2>
+
             <div className="row ">
 
                 {
                     portfolio.map(pf =>
-                        <div className="mt-4 col-md-4 col-sm-12 ">
+                        <div key={pf.id} className="mt-4 col-md-4 col-sm-12 ">
                             <Card style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src={pf.img} />
                                 <Card.Body className="card-body">
-                                    <p><small>{pf.sector}</small> </p>
+                                    <p><small>{pf.name}</small> </p>
                                     <Card.Title>{pf.title}</Card.Title>
 
-                                    <Button variant="danger">Details</Button>
+                                    <Link to={`/projectDts/${pf.id}`}>
+                                        <Button className="buttons" variant="contained">Details</Button>
+                                    </Link>
                                 </Card.Body>
                             </Card>
                         </div>

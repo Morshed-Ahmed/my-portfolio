@@ -7,6 +7,12 @@ import {
   Route,
 } from "react-router-dom";
 import Skills from './components/Home/Skills/Skills';
+import ProjectsDts from './components/Home/ProjectsDts/ProjectsDts';
+import Portfolio from './components/Home/Portfolio/Portfolio';
+import Header from './components/Home/Header/Header';
+import Footer from './components/Home/Footer/Footer';
+import Contact from './components/Home/Contact/Contact';
+import NotFound from './components/Home/NotFound/NotFound';
 
 function App() {
   return (
@@ -19,11 +25,21 @@ function App() {
           <Route path="/home">
             <Home />
           </Route>
-          <Route path="/skills">
-            <Skills />
+          <Route path="/project">
+            <Header />
+            <Portfolio />
+            <Footer></Footer>
+          </Route>
+          <Route path="/contact">
+            <Header />
+            <Contact />
+            <Footer></Footer>
+          </Route>
+          <Route path="/projectDts/:projectId">
+            <ProjectsDts />
           </Route>
           <Route path="*">
-            <Skills />
+            <NotFound />
           </Route>
 
         </Switch>

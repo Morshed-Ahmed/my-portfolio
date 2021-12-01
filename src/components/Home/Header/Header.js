@@ -20,20 +20,15 @@ const Header = () => {
                             <Nav.Link as={HashLink} to="/home">About</Nav.Link>
 
 
-                            <Nav.Link as={HashLink} to="/skills">Projects</Nav.Link>
+                            <Nav.Link as={HashLink} to="/project">Projects</Nav.Link>
                             <Nav.Link as={HashLink} to="/allOrder"><a className="link" href="https://drive.google.com/file/d/1r51zF7l9Hp-vUBpCNla0qYHxkF8yV4-S/view?usp=sharing">Resume</a></Nav.Link>
                             <Nav.Link as={HashLink} to="/skills">Blog</Nav.Link>
-                            <Nav.Link as={HashLink} to="/skills">Contact</Nav.Link>
+                            <Nav.Link as={HashLink} to="/contact">Contact</Nav.Link>
 
 
 
                         </Nav>
                         <Form className="d-flex">
-
-
-                            {/* <Nav.Link className="text-dark" to="/home">Logout</Nav.Link>
-
-                            <Nav.Link className="text-dark" to="/login">Login</Nav.Link> */}
                             <img className="img-fluid img" src="https://i.ibb.co/BBKwtBr/20200321-110123-removebg-preview.png" alt="" />
                         </Form>
                     </Navbar.Collapse>
