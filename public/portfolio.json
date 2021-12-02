@@ -8,7 +8,9 @@
         "img3": "https://i.ibb.co/gWD6tj6/Screenshot-100.png",
         "live": "https://sunglass-lunettes.web.app/",
         "link1": "https://github.com/programming-hero-web-course-4/niche-website-client-side-Morshed-Ahmed",
-        "link2": "https://github.com/programming-hero-web-course-4/niche-website-server-side-Morshed-Ahmed"
+        "link2": "https://github.com/programming-hero-web-course-4/niche-website-server-side-Morshed-Ahmed",
+        "detail1": "Nov 2021 - Nov 2021",
+        "detail2": " A responsive, fully-functional niche website,Allowing customers to create an account, browse products, buy products & write reviews.Admins have the ability to add new products, remove existing products, remove user products, update shipping status, and create new admin accounts. This website used => #MUI #JS #React #Aso #React router #Heroku #Firebase #Node JS#Node Express #MongoDB"
     },
     {
         "id": 2,
@@ -19,7 +21,9 @@
         "img3": "https://i.ibb.co/q1yq4DR/Screenshot-105.png",
         "live": "https://travels-tourism-agency.web.app/home",
         "link1": "https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-Morshed-Ahmed",
-        "link2": "https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-Morshed-Ahmed"
+        "link2": "https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-Morshed-Ahmed",
+        "detail1": "Nov 2021 - Nov 2021",
+        "detail2": " A responsive, fully-functional niche website,Allowing customers to create an account, browse products, buy products & write reviews.Admins have the ability to add new products, remove existing products, remove user products, update shipping status, and create new admin accounts. #MUI #JS #React #Aso #React router #Heroku #Firebase #Node JS#Node Express #MongoDB"
     },
     {
         "id": 3,
@@ -29,7 +33,9 @@
         "img2": "https://i.ibb.co/1ffV1my/Screenshot-108.png",
         "img3": "https://i.ibb.co/Pr5bZP9/Screenshot-109.png",
         "live": "https://healthcare-react-website.web.app/",
-        "link1": "https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-Morshed-Ahmed"
+        "link1": "https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-Morshed-Ahmed",
+        "detail1": "Nov 2021 - Nov 2021",
+        "detail2": " A responsive, fully-functional niche website,Allowing customers to create an account, browse products, buy products & write reviews.Admins have the ability to add new products, remove existing products, remove user products, update shipping status, and create new admin accounts. #MUI #JS #React #Aso #React router #Heroku #Firebase #Node JS#Node Express #MongoDB"
     },
     {
         "id": 4,
@@ -39,7 +45,9 @@
         "img2": "https://i.ibb.co/nBRnQR0/Screenshot-112.png",
         "img3": "https://i.ibb.co/7Jkns7B/Screenshot-113.png",
         "live": "https://silly-borg-d99dd4.netlify.app/",
-        "link1": "https://github.com/ProgrammingHeroWC4/review-website-Morshed-Ahmed"
+        "link1": "https://github.com/ProgrammingHeroWC4/review-website-Morshed-Ahmed",
+        "detail1": "Nov 2021 - Nov 2021",
+        "detail2": " A responsive, fully-functional niche website,Allowing customers to create an account, browse products, buy products & write reviews.Admins have the ability to add new products, remove existing products, remove user products, update shipping status, and create new admin accounts. #MUI #JS #React #Aso #React router #Heroku #Firebase #Node JS#Node Express #MongoDB"
     },
     {
         "id": 5,
@@ -48,7 +56,9 @@
         "img": "https://i.ibb.co/cQ6GcZ1/Screenshot-95.png",
         "img3": "https://i.ibb.co/VNGDsQd/Screenshot-117.png",
         "live": "https://admiring-galileo-b2235a.netlify.app/",
-        "link1": "https://github.com/ProgrammingHeroWC4/the-superhero-direction-Morshed-Ahmed"
+        "link1": "https://github.com/ProgrammingHeroWC4/the-superhero-direction-Morshed-Ahmed",
+        "detail1": "Nov 2021 - Nov 2021",
+        "detail2": " A responsive, fully-functional niche website,Allowing customers to create an account, browse products, buy products & write reviews.Admins have the ability to add new products, remove existing products, remove user products, update shipping status, and create new admin accounts. #MUI #JS #React #Aso #React router #Heroku #Firebase #Node JS#Node Express #MongoDB"
     },
     {
         "id": 6,
@@ -57,6 +67,8 @@
         "img": "https://i.ibb.co/s90qKsS/Screenshot-120.png",
         "img2": "https://i.ibb.co/kJCvzGQ/Screenshot-121.png",
         "live": "https://sad-carson-bbaecb.netlify.app/",
-        "link1": "https://github.com/Programming-Hero-Web-Course4/ranga-store-fix-Morshed-Ahmed"
+        "link1": "https://github.com/Programming-Hero-Web-Course4/ranga-store-fix-Morshed-Ahmed",
+        "detail1": "Nov 2021 - Nov 2021",
+        "detail2": " A responsive, fully-functional niche website,Allowing customers to create an account, browse products, buy products & write reviews.Admins have the ability to add new products, remove existing products, remove user products, update shipping status, and create new admin accounts. #MUI #JS #React #Aso #React router #Heroku #Firebase #Node JS#Node Express #MongoDB"
     }
 ]

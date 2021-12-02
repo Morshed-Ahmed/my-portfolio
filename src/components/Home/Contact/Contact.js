@@ -17,21 +17,21 @@ const Contact = () => {
 
     return (
         <div className="container my-5">
-            <div className="my-4">
+            <div className="my-4 contact-title">
                 <span>CONTACT</span>
                 <h2>Contact With Me</h2>
             </div>
             <div className="row">
-                <div className="col-md-6 border ">
+                <div className="col-md-6  ">
                     <div>
                         <img className="img-fluid" src="https://rainbowit.net/html/inbio/assets/images/contact/contact1.png" alt="" />
                     </div>
-                    <div>
+                    <div className="contact-ti">
                         <h4>Morshed Ahmed</h4>
-                        <span> Learning Progaming</span>
-                        <p>I am available for freelance work. Connect with me via and call in to my account.</p>
-                        <span>Phone: 0170000000</span> <br />
-                        <span>Email: morshed@gmail.com</span>
+                        <small> Learning Progaming</small> <br />
+                        <small>I am available for freelance work. <br /> Connect with me via and call in to my account.</small> <br />
+                        <h6>Phone: 01700000000</h6>
+                        <h6>Email: morshed@gmail.com</h6>
                     </div>
                 </div>
                 <div className="col-md-6">

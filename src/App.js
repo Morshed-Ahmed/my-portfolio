@@ -13,6 +13,8 @@ import Header from './components/Home/Header/Header';
 import Footer from './components/Home/Footer/Footer';
 import Contact from './components/Home/Contact/Contact';
 import NotFound from './components/Home/NotFound/NotFound';
+import Blog from './components/Home/Blog/Blog';
+import About from './components/Home/About/About';
 
 function App() {
   return (
@@ -37,6 +39,16 @@ function App() {
           </Route>
           <Route path="/projectDts/:projectId">
             <ProjectsDts />
+          </Route>
+          <Route path="/blog">
+            <Header />
+            <Blog />
+            <Footer></Footer>
+          </Route>
+          <Route path="/about">
+            <Header />
+            <About />
+            <Footer></Footer>
           </Route>
           <Route path="*">
             <NotFound />

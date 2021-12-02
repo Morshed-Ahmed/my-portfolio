@@ -51,8 +51,10 @@ const Portfolio = () => {
     }, [])
     return (
         <div className="container my-5">
-            <span>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</span>
-            <h2>My Projects</h2>
+            <div className="por-title">
+                <span>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</span>
+                <h2>My Projects</h2>
+            </div>
 
             <div className="row ">
 

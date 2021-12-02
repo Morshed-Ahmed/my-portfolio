@@ -42,7 +42,12 @@ const ProjectsDts = () => {
                                 </div>
 
                             </div>
-                            <div className="col-md-6 col-sm-12 mt-4 ">
+                            <div className="col-md-6 col-sm-12 mt-4 dita ">
+
+                                <div>
+                                    <h3>{pr.title}</h3>
+                                    <p>{pr.detail2}</p>
+                                </div>
 
                                 <a className=" links " href={pr.live}> Live site</a>
                                 <a className="m-2 links " href={pr.link1}> client site link</a>
