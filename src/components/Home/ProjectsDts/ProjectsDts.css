@@ -1,7 +1,7 @@
 .links{
     text-decoration: none;
     border: 1px solid ;
-    background-color: rgb(58, 182, 124);
+    background-color: #DC3545;
     color: white;
     padding: 10px;
     border-radius: 8px;
@@ -11,3 +11,8 @@
 .dita{
     text-align: left;
 }
+
+.project-details{
+    margin-top: 100px;
+}
+

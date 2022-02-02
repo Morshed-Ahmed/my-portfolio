@@ -50,7 +50,7 @@ const Portfolio = () => {
             .then(data => setPortfolio(data))
     }, [])
     return (
-        <div className="container my-5">
+        <div className="container portfolio-style">
             <div className="por-title">
                 <span>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</span>
                 <h2>My Projects</h2>

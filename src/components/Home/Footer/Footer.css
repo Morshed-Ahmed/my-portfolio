@@ -1,4 +1,4 @@
-.footer-style{
+/* .footer-style{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,4 +6,8 @@
     color: white;
     height: 100px;
    
+} */
+
+.footer-style img{
+    width: 60px;
 }

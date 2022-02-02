@@ -2,16 +2,31 @@
     color: #DC3545;
 }
 
-.skills-style{
+.skill{
+    margin-top: 100px;
+    height: 500px;
     text-align: left;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
 }
 
-.design {
-    margin-bottom: 20px;
+.skill-left{
+    margin-top: 50px;
 }
+.skill-right{
+    margin-top: 50px;
+}
+
+
 .design span{
     color: #DC3545;
 }
-.design {
-    margin-bottom: 20px;
+
+.design{
+    margin-bottom: 30px;
 }
+
+
+

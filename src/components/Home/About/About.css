@@ -1,12 +1,19 @@
-.about-style{
-    text-align: left;
-    padding: 20PX;
+ .about-st{
+    margin-top: 100px;
 }
+
+.about-style h2{
+    
+    margin-bottom: 30px;
+}
+
 .about-style span{
     color: #DC3545;
     margin-bottom: 15px;
 }
-.about-style h2{
-    
-    margin-bottom: 30px;
+.about{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

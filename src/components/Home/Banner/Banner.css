@@ -1,17 +1,54 @@
 .banner-style{
-    background-color: #ECF0F3;
-   /*  height: 100vh; */
+    margin-top: 55px;
 }
-
-.banner-heder{
-    display: flex;
-}
-
-.header{
-    margin-top: 200px;
-}
-
 .resume-link{
     color: white;
     text-decoration: none;
 }
+
+.name-style{
+    color: #DC3545;
+} 
+
+.header-left{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-im{
+    border: 1px solid #db737e ;
+    border-radius: 10px;
+    box-shadow:0px 0px 9px 5px #d16b79;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-ims{
+    padding: 66px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .banner-ims {
+      padding: 20px;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .header-left {
+      height: 350px;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .banner-img {
+        margin-bottom: 30px;
+    }
+  }

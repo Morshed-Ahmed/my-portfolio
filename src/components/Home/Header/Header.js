@@ -6,7 +6,7 @@ import { HashLink } from 'react-router-hash-link';
 const Header = () => {
     return (
         <div>
-            <Navbar /* fixed="top" */ bg="light" expand="lg">
+            <Navbar className="fixed-top" bg="light" expand="lg">
                 <Container fluid>
                     <Navbar.Brand href="#"> MORSHED AHMED</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
@@ -30,6 +30,7 @@ const Header = () => {
                         </Nav>
                         <Form className="d-flex">
                             {/* <img className="img-fluid img" src="https://i.ibb.co/BBKwtBr/20200321-110123-removebg-preview.png" alt="" /> */}
+                            {<img className="img-fluid img" src="https://www.linkpicture.com/q/profile-pic-7.png" alt="" />}
                         </Form>
                     </Navbar.Collapse>
                 </Container>

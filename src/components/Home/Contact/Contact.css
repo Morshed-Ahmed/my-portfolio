@@ -1,7 +1,62 @@
+
 .contact-title span{
     color: #DC3545;
 }
 
-.contact-ti{
-    margin-top: 20px;
+ .contact-left{
+     border: 1px solid gainsboro;
+     margin: 10px;
+     border-radius: 10px;
+ }
+
+ .contact-img{
+     margin: 15px;
+ }
+
+ .contact-img img{
+    border-radius: 10px;
+ }
+
+ .contact-details{
+     text-align: left;
+     margin: 15px;
+ }
+
+ .contact-right{
+    border: 1px solid gainsboro;
+    margin: 10px;
+    border-radius: 10px;
 }
+
+.contact-form{
+    margin: 15px;
+    text-align: left;
+}
+
+.contact-form input{
+    border-radius: 5px;
+    border: 2px solid  gainsboro;
+    /* outline: 1px solid #FF014F; */
+    width: 95%;
+    margin-top:  14px;
+}
+.contact-form textarea{
+    border-radius: 5px;
+    border: 2px solid  gainsboro;
+    margin-top: 10px;
+    width: 95%;
+    height: 200px;
+}
+
+.contact-button{
+    background-color: #DC3545;
+    color: white;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-style {
+      margin-top: 250px;
+    }
+  }
+

@@ -3,9 +3,13 @@ import './About.css'
 
 const About = () => {
     return (
-        <div className="container my-5">
-            <div className="row ">
-                <div className="col-10 about-style">
+        <div className="container about-st ">
+            <div className="row about">
+
+                <div className="col-md-6 col-sm-12 ">
+                    <img className="img-fluid banner-img" src="https://i.ibb.co/99Zhgdw/20200314-172411-removebg-preview.png" alt="" />
+                </div>
+                <div className="col-md-6 col-sm-12 about-style">
                     <span>FEATURES</span>
                     <h2>About</h2>
                     <small>Hi,I'm Morshed Ahmed</small>
@@ -17,3 +21,4 @@ const About = () => {
 };
 
 export default About;
+

@@ -3,9 +3,15 @@ import "./Footer.css"
 
 const Footer = () => {
     return (
-        <div className="footer-style ">
-
-            <h5 >© Copyright 2019. All Rights are Reserved.</h5>
+        <div className="footer-style container  ">
+            <hr />
+            <div className="mt-5">
+                <div>
+                    <img className="img-fluid mb-3" src="https://www.linkpicture.com/q/profile-pic-7.png" alt="" />
+                    <h4>MORSHED</h4>
+                </div>
+                <h6 >© 2021. All rights reserved by Rainbow-Themes.</h6>
+            </div>
 
         </div>
     );

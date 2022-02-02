@@ -23,7 +23,7 @@ const ProjectsDts = () => {
     return (
         <div>
             <Header />
-            <div className="container" >
+            <div className="container project-details" >
 
 
                 {
@@ -49,9 +49,11 @@ const ProjectsDts = () => {
                                     <p>{pr.detail2}</p>
                                 </div>
 
-                                <a className=" links " href={pr.live}> Live site</a>
-                                <a className="m-2 links " href={pr.link1}> client site link</a>
-                                <a className=" links" href={pr.link2}> Server site link</a>
+                                <div className="details-button">
+                                    <a className=" links " href={pr.live}> Live site</a>
+                                    <a className="m-2 links " href={pr.link1}> client site link</a>
+                                    <a className=" links" href={pr.link2}> Server site link</a>
+                                </div>
 
                             </div>
                         </div>
