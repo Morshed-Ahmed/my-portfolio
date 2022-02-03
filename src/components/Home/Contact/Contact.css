@@ -1,6 +1,15 @@
 
 .contact-title span{
-    color: #DC3545;
+    color: #f9004d;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2px;
+}
+
+.contact-title h2{
+    line-height: 72px;
+    font-size: 35px;
+    color: #3c3e41;
 }
 
  .contact-left{

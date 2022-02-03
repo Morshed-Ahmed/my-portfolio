@@ -1,5 +1,14 @@
 .skill-title span{
-    color: #DC3545;
+    color: #f9004d;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2px;
+}
+
+.skill-title h2{
+    line-height: 72px;
+    font-size: 40px;
+    color: #3c3e41;
 }
 
 .skill{
@@ -21,7 +30,10 @@
 
 
 .design span{
-    color: #DC3545;
+    color: #f9004d;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2px;
 }
 
 .design{

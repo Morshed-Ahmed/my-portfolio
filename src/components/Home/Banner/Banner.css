@@ -23,6 +23,23 @@
     text-align: center;
 }
 
+.header-sub-title{
+    color: #3c3e41;
+    line-height: 21px;
+    letter-spacing: 3px;
+    font-size: 14px;
+
+}
+
+.header-title{
+    color: #1e2125;
+    line-height: 50px;
+    letter-spacing: normal;
+
+
+
+}
+
 .banner-im{
     border: 1px solid #db737e ;
     border-radius: 10px;

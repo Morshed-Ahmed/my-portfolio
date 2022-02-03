@@ -10,7 +10,7 @@ const Footer = () => {
                     <img className="img-fluid mb-3" src="https://www.linkpicture.com/q/profile-pic-7.png" alt="" />
                     <h4>MORSHED</h4>
                 </div>
-                <h6 >© 2021. All rights reserved by Rainbow-Themes.</h6>
+                <span >© 2021. All rights reserved by Rainbow-Themes.</span>
             </div>
 
         </div>

@@ -12,8 +12,10 @@ const About = () => {
                 <div className="col-md-6 col-sm-12 about-style">
                     <span>FEATURES</span>
                     <h2>About</h2>
-                    <small>Hi,I'm Morshed Ahmed</small>
-                    <p>I'm a  MEAN Stack Developer with over 2 years of experience. I am also a hard worker and team player. I am looking for a challenging opportunity that will enable me to use my skills and abilities to achieve a challenging goal. I have acquired the skills and knowledge necessary to make your project a success.</p>
+                    <div className='about-description'>
+                        <small >Hi,I'm Morshed Ahmed</small>
+                        <p >I'm a  MEAN Stack Developer with over 2 years of experience. I am also a hard worker and team player. I am looking for a challenging opportunity that will enable me to use my skills and abilities to achieve a challenging goal. I have acquired the skills and knowledge necessary to make your project a success.</p>
+                    </div>
                 </div>
             </div>
         </div>

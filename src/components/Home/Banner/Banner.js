@@ -11,9 +11,9 @@ const Banner = () => {
                     <div className="col-md-6 col-sm-12">
                         <div className="header-left ">
                             <div>
-                                <p>WELCOME TO MY WORLD</p>
-                                <h2>
-                                    Hi, I’m <span > Morshed Ahmed</span> <br />
+                                <span className='header-sub-title'>WELCOME TO MY WORLD</span>
+                                <h1 className='header-title'>
+                                    Hi, I’m <span  > Morshed Ahmed</span> <br />
                                     <span >a</span>
 
                                     <span style={{ color: 'red', fontWeight: 'bold' }}>
@@ -28,7 +28,7 @@ const Banner = () => {
                                             delaySpeed={1000}
                                         />
                                     </span>
-                                </h2>
+                                </h1>
                                 <Button className='mt-4' variant="danger"> <a className="resume-link" href="https://drive.google.com/file/d/1r51zF7l9Hp-vUBpCNla0qYHxkF8yV4-S/view?usp=sharing">MY RESUME</a> </Button>
                             </div>
                         </div>

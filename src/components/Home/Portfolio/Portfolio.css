@@ -12,9 +12,27 @@
 }
 
 .por-title span{
-    color: #DC3545;
+    color: #f9004d;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2px;
+
+}
+
+.por-title h2{
+    line-height: 72px;
+    font-size: 40px;
+    color: #3c3e41;
 }
 
 .portfolio-style{
     margin-top: 100px;
 }
+
+@media only screen and (max-width: 600px) {
+    .por-title  {
+      margin-top: 180px;
+       
+       
+    }
+  }
