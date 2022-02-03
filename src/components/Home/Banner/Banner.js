@@ -10,7 +10,7 @@ const Banner = () => {
                 <div className="row header ">
                     <div className="col-md-6 col-sm-12">
                         <div className="header-left ">
-                            <div>
+                            <div data-aos="fade-up">
                                 <span className='header-sub-title'>WELCOME TO MY WORLD</span>
                                 <h1 className='header-title'>
                                     Hi, I’m <span  > Morshed Ahmed</span> <br />
@@ -33,7 +33,7 @@ const Banner = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-sm-12  banner-ims ">
+                    <div data-aos="fade-up" className="col-md-6 col-sm-12  banner-ims ">
                         <div className='  banner-im'>
                             <img className="img-fluid banner-img" src="https://i.ibb.co/nDtVnp7/20220118-181805-removebg-preview.png" alt="" />
                         </div>

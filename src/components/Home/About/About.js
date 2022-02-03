@@ -6,10 +6,10 @@ const About = () => {
         <div className="container about-st ">
             <div className="row about">
 
-                <div className="col-md-6 col-sm-12 ">
+                <div data-aos="fade-up" className="col-md-6 col-sm-12 ">
                     <img className="img-fluid banner-img" src="https://i.ibb.co/99Zhgdw/20200314-172411-removebg-preview.png" alt="" />
                 </div>
-                <div className="col-md-6 col-sm-12 about-style">
+                <div data-aos="fade-up" className="col-md-6 col-sm-12 about-style">
                     <span>FEATURES</span>
                     <h2>About</h2>
                     <div className='about-description'>

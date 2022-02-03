@@ -23,7 +23,7 @@ const ProjectsDts = () => {
     return (
         <div>
             <Header />
-            <div className="container project-details" >
+            <div data-aos="fade-up" className="container project-details" >
 
 
                 {

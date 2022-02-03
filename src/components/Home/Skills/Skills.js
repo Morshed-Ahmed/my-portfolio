@@ -15,13 +15,13 @@ const Skills = () => {
     return (
         <div className='skill '>
             <div className="container">
-                <div className=" skill-title">
+                <div data-aos="fade-up" className=" skill-title">
                     <span>2+ YEARS OF EXPERIENCE</span>
                     {/* <h2>My Skills</h2> */}
                     <h2>My Skills</h2>
                 </div>
 
-                <div className="row skill-style ">
+                <div data-aos="fade-up" className="row skill-style ">
                     <div className="col-md-6 col-sm-12 skill-left">
                         <div className="design">
                             <span>Features</span>

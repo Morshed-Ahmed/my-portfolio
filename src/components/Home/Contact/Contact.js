@@ -11,7 +11,7 @@ const Contact = () => {
         e.target.reset();
     }
     return (
-        <div className="container contact-style">
+        <div data-aos="fade-up" className="container contact-style">
             <div className="my-4 contact-title">
                 <span>CONTACT</span>
                 <h2>Contact With Me</h2>
@@ -26,7 +26,7 @@ const Contact = () => {
                             <h4>Morshed Ahmed</h4>
                             <small > Learning Progaming</small>
                             <p className="mt-2">I am available for freelance work. <br /> Connect with me via and call in to my account.</p>
-                            <h6>Phone: 01700000000</h6>
+                            <h6>Phone: 01934-981700</h6>
                             <h6>Email: morshed@gmail.com</h6>
                         </div>
                     </div>
